@@ -3,7 +3,7 @@ agent any
   stages {
     stage('fetch_latest_code') {
       steps {
-        git url: 'git@github.com:nathanaelassis/vorx-iac.git', branch: 'main'
+        git url: 'https://github.com/nathanaelassis/vorx-iac.git', branch: 'main'
       }
     }
 
